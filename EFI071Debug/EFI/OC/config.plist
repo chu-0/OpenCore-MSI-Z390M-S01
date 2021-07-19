@@ -251,11 +251,15 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>EjRWeA==</data>
-				<key>framebuffer-patch-enable</key>
-				<data>AQAAAA==</data>
+				<data>BwCbPg==</data>
 				<key>device-id</key>
 				<data>kj4AAA==</data>
+				<key>framebuffer-patch-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-stolenmem</key>
+				<data>AAAwAQ==</data>
+				<key>framebuffer-fbmem</key>
+				<data>AACQAA==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -265,9 +269,8 @@
 	<dict>
 		<key>Add</key>
 		<array>
+			<string></string>
 			<dict>
-				<key>Comment</key>
-				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>PlistPath</key>
